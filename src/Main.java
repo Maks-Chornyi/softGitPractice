@@ -6,7 +6,7 @@ public class Main {
         System.out.println("Program");
     }
     private static void printUserName(String name){
-        System.out.println("User name: " name);
+        System.out.println("User name: " + name);
     }
     private static void printSimpleMessage() {
         System.out.println("Simple message");
