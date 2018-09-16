@@ -8,6 +8,7 @@ public class Main {
 
     private static void printSimpleMessage() {
         System.out.println("Simple message");
+        System.out.println("Simple message added from Maks Chornyi");
     }
 
     private static int countSum(int a, int b) {
