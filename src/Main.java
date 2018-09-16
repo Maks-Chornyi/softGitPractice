@@ -1,9 +1,11 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         printSimpleMessage();
 
         substract(5,10);
-        printMessageFromUser("Scrum Master");
+        printMessageFromUser();
         System.out.println("Program");
     }
     private static void printUserName(String name){
@@ -20,7 +22,8 @@ public class Main {
         return a - b;
     }
 
-    public static void printMessageFromUser(String msg) {
-        System.out.println(msg);
+    public static void printMessageFromUser() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println(sc.nextLine());
     }
 }
