@@ -7,11 +7,9 @@ public class Main {
         System.out.println("Program");
     }
     private static void printUserName(String name){
-<<<<<<< HEAD
+
         System.out.println("User name: " + name);
-=======
-        System.out.println("User name: " +name);
->>>>>>> afee85a0dc7e4727913b359f318576a1d8e6fc51
+
     }
     private static void printSimpleMessage() {
         System.out.println("Simple message");
